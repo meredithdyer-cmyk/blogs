@@ -1,0 +1,128 @@
+body{
+margin: 0px;
+padding: 0px;
+}
+
+header {
+    position: relative; 
+    margin-bottom: 10px; 
+    height: 700px;
+}
+
+header img, header h1 {
+    position:absolute;
+
+}
+
+header img{
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+}
+
+header h1 {
+    z-index: 2;
+    left: 25%;
+    width: 50%;
+    margin: 85px auto; 
+    background-color:rgb(5, 54, 9);
+    text-align:center; 
+    padding: 5px;
+    font-size: 42px; 
+    font: papyrus;
+}
+
+nav {
+
+    position: fixed;
+    top: 0px; 
+    background-color: aquamarine;
+    z-index: 3;
+}
+nav a {
+    text-decoration: none;
+    color: rgb(1, 81, 54);
+    margin:10px;
+    text-transform: uppercase;  
+}
+
+.purpose{
+    margin: 40px;
+    width: 65%; 
+}
+
+.purpose h2{
+    text-align: center;
+    font-family:'Courier New', Courier, monospace; 
+    font-size: 30px;   
+    margin-bottom:0px;
+}
+
+.purpose p {
+font-family: 'Courier New', Courier, monospace;
+margin-top: 10px;
+font: size 20px;;
+}
+footer {
+background-color: azure;
+padding: 80px;
+text-align: center;
+color: rgba(14, 17, 88, 0.362);
+}
+
+.back-to-top{
+    background-color: rgba(14, 17, 88, 0.362);
+    width: 100px;
+    margin: 10px auto;
+    padding: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.back-to-top a {
+    color:rgb(33, 50, 64);
+    text-decoration: none;
+}
+
+footer p {
+    font-family: "'Courier New', Courier, monospace";
+    font-size: small;
+    margin-top: 20px;
+}
+
+.blog-cards .blog-cards-article article img{
+    width: 100%;
+    height: 65%;
+}
+
+.blog-cards-article{
+    display: flex;w
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 40px;
+    margin-bottom: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.blog-cards-article article{
+    flex: 0 0 350px;
+    font-family: 'Courier New', Courier, monospace;
+    box-shadow: 4px 4px 20px black;
+    height: 525px;
+}
+
+.blog-cards h2{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+
+.blog-cards h3,
+.blog-cards-article p{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+footer.icons i {
+    font: size 22px;
+    margin-top: 20px;
+}
